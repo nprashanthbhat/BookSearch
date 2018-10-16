@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookDetail renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BookDetail
+    bookInfo={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <tr
+        style={
+          Object {
+            "verticalAlign": "top",
+          }
+        }
+      >
+        <td
+          style={
+            Object {
+              "margin": 5,
+              "minWidth": "8em",
+              "textAlign": "center",
+            }
+          }
+        />
+        <td
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "fontSize": 24,
+                "fontWeight": "bold",
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "color": "green",
+                "fontSize": 15,
+                "padding": 5,
+              }
+            }
+          />
+        </td>
+      </tr>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <td
+            style={
+              Object {
+                "margin": 5,
+                "minWidth": "8em",
+                "textAlign": "center",
+              }
+            }
+          />,
+          <td
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                }
+              }
+            />
+            <div
+              style={
+                Object {
+                  "color": "green",
+                  "fontSize": 15,
+                  "padding": 5,
+                }
+              }
+            />
+          </td>,
+        ],
+        "style": Object {
+          "verticalAlign": "top",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              false,
+            ],
+            "style": Object {
+              "margin": 5,
+              "minWidth": "8em",
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            false,
+          ],
+          "type": "td",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                style={
+                  Object {
+                    "fontSize": 24,
+                    "fontWeight": "bold",
+                  }
+                }
+              />,
+              false,
+              <div
+                style={
+                  Object {
+                    "color": "green",
+                    "fontSize": 15,
+                    "padding": 5,
+                  }
+                }
+              />,
+              false,
+            ],
+            "style": Object {
+              "padding": 10,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "style": Object {
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  false,
+                  false,
+                ],
+                "style": Object {
+                  "color": "green",
+                  "fontSize": 15,
+                  "padding": 5,
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                false,
+                false,
+              ],
+              "type": "div",
+            },
+            false,
+          ],
+          "type": "td",
+        },
+      ],
+      "type": "tr",
+    },
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <tr
+          style={
+            Object {
+              "verticalAlign": "top",
+            }
+          }
+        >
+          <td
+            style={
+              Object {
+                "margin": 5,
+                "minWidth": "8em",
+                "textAlign": "center",
+              }
+            }
+          />
+          <td
+            style={
+              Object {
+                "padding": 10,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                }
+              }
+            />
+            <div
+              style={
+                Object {
+                  "color": "green",
+                  "fontSize": 15,
+                  "padding": 5,
+                }
+              }
+            />
+          </td>
+        </tr>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <td
+              style={
+                Object {
+                  "margin": 5,
+                  "minWidth": "8em",
+                  "textAlign": "center",
+                }
+              }
+            />,
+            <td
+              style={
+                Object {
+                  "padding": 10,
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "fontSize": 24,
+                    "fontWeight": "bold",
+                  }
+                }
+              />
+              <div
+                style={
+                  Object {
+                    "color": "green",
+                    "fontSize": 15,
+                    "padding": 5,
+                  }
+                }
+              />
+            </td>,
+          ],
+          "style": Object {
+            "verticalAlign": "top",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                false,
+                false,
+              ],
+              "style": Object {
+                "margin": 5,
+                "minWidth": "8em",
+                "textAlign": "center",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              false,
+              false,
+            ],
+            "type": "td",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  style={
+                    Object {
+                      "fontSize": 24,
+                      "fontWeight": "bold",
+                    }
+                  }
+                />,
+                false,
+                <div
+                  style={
+                    Object {
+                      "color": "green",
+                      "fontSize": 15,
+                      "padding": 5,
+                    }
+                  }
+                />,
+                false,
+              ],
+              "style": Object {
+                "padding": 10,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "style": Object {
+                    "fontSize": 24,
+                    "fontWeight": "bold",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              false,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    false,
+                  ],
+                  "style": Object {
+                    "color": "green",
+                    "fontSize": 15,
+                    "padding": 5,
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  false,
+                ],
+                "type": "div",
+              },
+              false,
+            ],
+            "type": "td",
+          },
+        ],
+        "type": "tr",
+      },
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
